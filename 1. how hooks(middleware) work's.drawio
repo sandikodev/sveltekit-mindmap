@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T16:17:00.840Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ycVGNg3hKRRG187FYHR9" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T16:25:44.463Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="c2TX7-loMwAn7it0B6Jb" version="22.0.4" type="github">
   <diagram name="Page-1" id="GnxkV7bNmk6tipJM2uC0">
-    <mxGraphModel dx="576" dy="1321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="776" dy="1482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,6 +101,15 @@
         </mxCell>
         <mxCell id="cJ8iGMwO-AmT_AEDeLSv-17" value="1. await resolve(event)&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. generated response&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#67AB9F;" parent="1" vertex="1">
           <mxGeometry x="497.5" y="180" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TtLkIHkY7f4iRGPbkUeM-3" value="export const handle: Handle = async ({ event, resolve }) =&amp;gt; {&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;strokeColor=#FF00FF;" vertex="1" parent="1">
+          <mxGeometry x="730" y="86.25" width="330" height="142.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TtLkIHkY7f4iRGPbkUeM-4" value="if (event.url.pathname.startsWith(&#39;/custom&#39;)) {" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF8000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="760" y="118.75" width="250" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="TtLkIHkY7f4iRGPbkUeM-5" value="const response = await resolve(event)&lt;br&gt;return response" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#67AB9F;align=left;" vertex="1" parent="1">
+          <mxGeometry x="760" y="158.75" width="250" height="41.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
