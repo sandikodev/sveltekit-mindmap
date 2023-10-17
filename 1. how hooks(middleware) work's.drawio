@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T15:55:50.346Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="p-eyeu3R4OUGgj1yHSwH" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T16:17:00.840Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ycVGNg3hKRRG187FYHR9" version="22.0.4" type="github">
   <diagram name="Page-1" id="GnxkV7bNmk6tipJM2uC0">
-    <mxGraphModel dx="995" dy="1482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="576" dy="1321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,7 +33,8 @@
             <Array as="points">
               <mxPoint x="265" y="350" />
               <mxPoint x="440" y="350" />
-              <mxPoint x="440" y="202" />
+              <mxPoint x="440" y="198" />
+              <mxPoint x="460" y="198" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -54,12 +55,13 @@
         <mxCell id="cJ8iGMwO-AmT_AEDeLSv-8" value="+page.server.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="290" width="90" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="cJ8iGMwO-AmT_AEDeLSv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF00FF;" parent="1" source="cJ8iGMwO-AmT_AEDeLSv-9" target="cJ8iGMwO-AmT_AEDeLSv-10" edge="1">
+        <mxCell id="cJ8iGMwO-AmT_AEDeLSv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF00FF;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cJ8iGMwO-AmT_AEDeLSv-9" target="cJ8iGMwO-AmT_AEDeLSv-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="692.5" y="167.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="702.5" y="138" />
-              <mxPoint x="702.5" y="173" />
+              <mxPoint x="703" y="138" />
+              <mxPoint x="703" y="168" />
+              <mxPoint x="663" y="168" />
             </Array>
             <mxPoint x="692.5" y="132.5" as="sourcePoint" />
           </mxGeometry>
@@ -80,13 +82,13 @@
             <mxPoint x="-12" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cJ8iGMwO-AmT_AEDeLSv-10" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;render route &amp;amp; generate response await resolve(event)&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF8000;" parent="1" vertex="1">
-          <mxGeometry x="497.5" y="155" width="165" height="35" as="geometry" />
+        <mxCell id="cJ8iGMwO-AmT_AEDeLSv-10" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;render route&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="497.5" y="155" width="165" height="25" as="geometry" />
         </mxCell>
         <mxCell id="cJ8iGMwO-AmT_AEDeLSv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#67AB9F;" parent="1" source="cJ8iGMwO-AmT_AEDeLSv-17" target="cJ8iGMwO-AmT_AEDeLSv-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="700" y="203" />
+              <mxPoint x="700" y="198" />
               <mxPoint x="700" y="380" />
               <mxPoint x="130" y="380" />
             </Array>
@@ -97,8 +99,8 @@
             <mxPoint x="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cJ8iGMwO-AmT_AEDeLSv-17" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;generated response&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#67AB9F;" parent="1" vertex="1">
-          <mxGeometry x="497.5" y="190" width="165" height="25" as="geometry" />
+        <mxCell id="cJ8iGMwO-AmT_AEDeLSv-17" value="1. await resolve(event)&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. generated response&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#67AB9F;" parent="1" vertex="1">
+          <mxGeometry x="497.5" y="180" width="165" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
